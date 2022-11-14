@@ -1,0 +1,6 @@
+npm-debug*.log
+node_modules/
+.vscode
+yarn-error.log
+.DS_Store
+config.json

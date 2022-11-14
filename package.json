@@ -1,0 +1,28 @@
+{
+  "name": "fuckingsftp",
+  "version": "1.0.0",
+  "description": "选择本地项目 安装依赖｜打包 后上传到服务器",
+  "keywords": [
+    "sftp",
+    "ftp",
+    "sftp-cli",
+    "ftp-cli",
+    "ssh",
+    "sftp-client"
+  ],
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=16344 ./index.js"
+  },
+  "author": "name-q",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "commander": "^2.19.0",
+    "inquirer": "7.3.3",
+    "ora": "^3.0.0",
+    "progress": "^2.0.3",
+    "ssh2-sftp-client": "^3.1.0"
+  }
+}
